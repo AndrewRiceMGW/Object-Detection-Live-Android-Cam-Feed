@@ -4,11 +4,18 @@
 Created on Wed Sep 18 14:45:12 2019
 
 @author: andrew
-"""
+Adapted from:
+    
+"Speed/accuracy trade-offs for modern convolutional object detectors."
+Huang J, Rathod V, Sun C, Zhu M, Korattikara A, Fathi A, Fischer I, Wojna Z,
+Song Y, Guadarrama S, Murphy K, CVPR 2017
+
+
+
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
+ 
 Created on Tue Sep 17 21:54:28 2019
 
 @author: andrew
@@ -37,7 +44,7 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 # Define the video stream
 vidPath = os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;0"
-cap = cv2.VideoCapture("rtsp://192.168.0.43:5554/playlist.m3u", cv2.CAP_FFMPEG)  # Change only if you have more than one webcams
+cap = cv2.VideoCapture("rtsp://192.168.0.43:5554/playlist.m3u", cv2.CAP_FFMPEG) # Change RTSP 
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
  
