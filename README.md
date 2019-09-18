@@ -2,8 +2,8 @@
  I used #tensorflow Object Detection API use tensorflow Object Detection API with Opencv and
  RTSP Server app from  MIV Dev to perform object detection using Android mobile camera. 
  
- ##Prerequisits 
-[Installation Dependencies For :] (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
+ ## Prerequisits 
+[Installation Dependencies For :](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 
 *   Protobuf 3.0.0
 *   Python-tk
